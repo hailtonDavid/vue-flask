@@ -1,0 +1,25 @@
+python -m venv venv
+cd .\venv\ 
+cd .\Scripts\
+.\activate  
+
+#pip install Flask==2.2.3 Flask-Cors==3.0.10
+pip install Flask Flask-Cors
+npm create vue@latest
+
+Primeiros passos
+
+echo "# vue-flask" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/hailtonDavid/vue-flask.git
+git push -u origin main
+
+Próximos passos
+
+git add .
+git commit -m "Second commit"
+git push
+
